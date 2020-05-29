@@ -5,7 +5,7 @@ def oxford_comma(array)
   while (i != len)
     return_array << array[i]
     if (i + 1) == len
-      if (len = 1)
+      if (len == 1)
         return_array << " and "
       else
         return_array << ", and"
