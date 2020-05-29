@@ -4,8 +4,8 @@ def oxford_comma(array)
   elsif (array.length() == 2)
     puts "#{array[0]} and #{array[1]}"
   else
-    point1 = array.length() - 3
-    point2 = array.length() - 2
+    point1 = array.length() - 2
+    point2 = array.length() - 1
     i = 0
     until i == point1
       print ("#{array[i]}, ")
