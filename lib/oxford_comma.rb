@@ -1,9 +1,10 @@
 def oxford_comma(array)
   i = 0
   return_array = []
-  while (i != array.length())
+  len = array.length() - 1
+  while (i != len)
     return_array << array[i]
-    if (i + 1) == array.length()
+    if (i + 1) == len
       return_array << " and "
     else
       return_array << ", "
