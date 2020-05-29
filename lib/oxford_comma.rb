@@ -1,13 +1,14 @@
 def oxford_comma(array)
   i = 0
+  return_array = []
   while (i != array.length())
-    print array[i]
+    return_array << array[i]
     if (i + 1) == array.length()
-      print " and "
+      return_array << " and "
     else
-      print ", "
+      return_array << ", "
     end
     i = i + 1
   end
-  print array[i]
+  return_array << array[i]
 end
