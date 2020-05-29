@@ -1,7 +1,7 @@
 def oxford_comma(array)
-  len = array.length() - 1
+  point1 = array.length() - 2
   i = 0
-  until i == len
+  until i == len - 1
     print array[i] + ", "
     i = i + 1
   end
