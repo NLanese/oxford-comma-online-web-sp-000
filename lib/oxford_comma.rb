@@ -1,13 +1,13 @@
 def oxford_comma(array)
   i = 0
   while (i != array.length())
-    print ("#{array[i]}")
+    print array[i]
     if (i + 1) == array.length()
-      print (" and ")
+      print " and "
     else
-      print (", ")
+      print ", "
     end
     i = i + 1
   end
-  print ("#{array[i]}")
+  print array[i]
 end
