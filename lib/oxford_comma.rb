@@ -6,5 +6,7 @@ def oxford_comma(array)
     print array[i] + ", "
     i = i + 1
   end
-
+  print array[i] + " and "
+  i + 1
+  print array[i]
 end
