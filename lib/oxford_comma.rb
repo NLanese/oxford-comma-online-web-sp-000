@@ -8,7 +8,7 @@ def oxford_comma(array)
       if (len == 1)
         return_array << " and "
       else
-        return_array << ", and"
+        return_array << ", and "
       end
     else
       return_array << ", "
