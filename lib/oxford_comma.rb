@@ -11,4 +11,5 @@ def oxford_comma(array)
     i = i + 1
   end
   return_array << array[i]
+  return return_array.join
 end
